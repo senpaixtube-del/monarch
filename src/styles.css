@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600&family=Vazirmatn:wght@400;500;600;700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #0c1016;
+  --color-surface: #141a24;
+  --color-surface-2: #1c2431;
+  --color-fg: #e7e4dc;
+  --color-muted: #8d97a8;
+  --color-line: #2a3344;
+  --color-ice: #7ee0c6;
+  --color-ice-dim: #16352e;
+  --color-win: #3ecf8e;
+  --color-loss: #e06b6b;
+  --color-warn: #e3b15a;
+  --font-sans: "Vazirmatn", system-ui, sans-serif;
+  --font-num: "IBM Plex Sans", "Vazirmatn", sans-serif;
+  --radius: 0.875rem;
+}
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  html,
+  body {
+    background: var(--color-bg);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+  }
+  .num {
+    font-family: var(--font-num);
+    font-variant-numeric: tabular-nums;
+    direction: ltr;
+    unicode-bidi: isolate;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}

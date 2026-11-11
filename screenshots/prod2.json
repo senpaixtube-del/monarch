@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "آیینه",
+      "hasCanvas": false,
+      "bodyTextLen": 149,
+      "bodyTextHash": "7d6bf6e5383c1e41a151071138d17b252a0defd510fbf3d68385e6dcf7bdfe6c",
+      "bodyTextPrefix": "دوتا ۲ · فقط عدد و شاهد آیینه استیم آیدی یا شماره مچ را بده. گزا",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/prod2.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "آیینه",
+      "hasCanvas": false,
+      "bodyTextLen": 149,
+      "bodyTextHash": "7d6bf6e5383c1e41a151071138d17b252a0defd510fbf3d68385e6dcf7bdfe6c",
+      "bodyTextPrefix": "دوتا ۲ · فقط عدد و شاهد آیینه استیم آیدی یا شماره مچ را بده. گزا",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/prod2-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/prod2.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}
